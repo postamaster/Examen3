@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profesores">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profesores"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/sw1_p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fulanito_1" />
+
+            <Switch
+                android:id="@+id/sw2_p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fulanito_2" />
+
+            <Switch
+                android:id="@+id/sw3_p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fulanita_3" />
+
+            <Switch
+                android:id="@+id/sw4_p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fulanita_4" />
+
+            <Switch
+                android:id="@+id/sw5_p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fulanita_5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/salir_p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/salir" />
+
+            <Button
+                android:id="@+id/cargar_p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cargar" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
